@@ -14,6 +14,10 @@
 		4DE4AA3C2BF41CAE007569D6 /* HackerNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AA3B2BF41CAE007569D6 /* HackerNTests.swift */; };
 		4DE4AA462BF41CAE007569D6 /* HackerNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AA452BF41CAE007569D6 /* HackerNUITests.swift */; };
 		4DE4AA482BF41CAE007569D6 /* HackerNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AA472BF41CAE007569D6 /* HackerNUITestsLaunchTests.swift */; };
+		4DE4AA562BF421AF007569D6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AA552BF421AF007569D6 /* NetworkManager.swift */; };
+		4DE4AA582BF52457007569D6 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AA572BF52457007569D6 /* PostData.swift */; };
+		4DE4AA5B2BF5659B007569D6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AA5A2BF5659B007569D6 /* DetailView.swift */; };
+		4DE4AA5D2BF5694A007569D6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4AA5C2BF5694A007569D6 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		4DE4AA412BF41CAE007569D6 /* HackerNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE4AA452BF41CAE007569D6 /* HackerNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNUITests.swift; sourceTree = "<group>"; };
 		4DE4AA472BF41CAE007569D6 /* HackerNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DE4AA552BF421AF007569D6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4DE4AA572BF52457007569D6 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		4DE4AA5A2BF5659B007569D6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4DE4AA5C2BF5694A007569D6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		4DE4AA292BF41CAC007569D6 /* HackerN */ = {
 			isa = PBXGroup;
 			children = (
+				4DE4AA542BF4218F007569D6 /* Models */,
 				4DE4AA2A2BF41CAC007569D6 /* HackerNApp.swift */,
-				4DE4AA2C2BF41CAC007569D6 /* ContentView.swift */,
+				4DE4AA592BF56582007569D6 /* Views */,
 				4DE4AA2E2BF41CAE007569D6 /* Assets.xcassets */,
 				4DE4AA302BF41CAE007569D6 /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				4DE4AA472BF41CAE007569D6 /* HackerNUITestsLaunchTests.swift */,
 			);
 			path = HackerNUITests;
+			sourceTree = "<group>";
+		};
+		4DE4AA542BF4218F007569D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4AA552BF421AF007569D6 /* NetworkManager.swift */,
+				4DE4AA572BF52457007569D6 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DE4AA592BF56582007569D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4AA2C2BF41CAC007569D6 /* ContentView.swift */,
+				4DE4AA5A2BF5659B007569D6 /* DetailView.swift */,
+				4DE4AA5C2BF5694A007569D6 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE4AA562BF421AF007569D6 /* NetworkManager.swift in Sources */,
+				4DE4AA582BF52457007569D6 /* PostData.swift in Sources */,
 				4DE4AA2D2BF41CAC007569D6 /* ContentView.swift in Sources */,
+				4DE4AA5D2BF5694A007569D6 /* WebView.swift in Sources */,
+				4DE4AA5B2BF5659B007569D6 /* DetailView.swift in Sources */,
 				4DE4AA2B2BF41CAC007569D6 /* HackerNApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
